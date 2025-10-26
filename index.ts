@@ -1,6 +1,6 @@
 
-import { Plugin } from '@/shared/plugin';
-import { Context } from '@/shared/configuration';
+import { Plugin } from './shared/plugin';
+import { Context } from './shared/configuration';
 import createVincentTool, { SIGN_AND_SEND_WITH_VINCENT_TOOL, VincentSignerToolParams } from './tools/vincent/sign-and-send-with-vincent';
 
 // Re-export the params interface so users can import it from the plugin

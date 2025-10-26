@@ -1,0 +1,27 @@
+{
+  "name": "vincent-signer-plugin",
+  "version": "1.0.0",
+  "description": "This plugin was built by a Gemini developer to integrate the [Vincent Platform](https://www.heyvincent.ai/) with the Hedera Agent Kit. It was built to enable AI agents to request transaction signatures from a user's Vincent Wallet, allowing for secure, policy-based transaction execution on the Hedera network without exposing private keys to the agent.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chan3785/hedera-vincent-plugin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/chan3785/hedera-vincent-plugin/issues"
+  },
+  "homepage": "https://github.com/chan3785/hedera-vincent-plugin#readme",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.75.0",
+    "@lit-protocol/vincent-app-sdk": "^2.2.3",
+    "ethers": "^5.8.0",
+    "zod": "^4.1.12"
+  }
+}

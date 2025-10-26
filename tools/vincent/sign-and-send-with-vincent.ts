@@ -2,9 +2,9 @@
 import { Account, getVincentAbilityClient } from '@lit-protocol/vincent-app-sdk';
 import { ethers } from 'ethers';
 import { z } from 'zod';
-import { Tool } from '@/shared/tools';
+import { Tool } from '@/plugins/vincent-signer-plugin/shared/tools';
 import { Client } from '@hashgraph/sdk';
-import { Context } from '@/shared/configuration';
+import { Context } from '../../shared/configuration';
 
 // Define the parameters needed for configuration
 export interface VincentSignerToolParams {
